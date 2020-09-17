@@ -1,0 +1,94 @@
+#comments_holder{
+width:500px;
+height:100px;
+border:solid 0.7px rgba(0,144,300,.3);
+border-bottom:none;
+border-radius:10px;
+background:#fff;
+color:skyblue;
+box-shadow:0.9px 0px 4px rgba(0,0,0,.4);
+-moz-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-webkit-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-o-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+margin:10px auto;
+text-shadow:;
+position:relative;
+left:-190px;
+top:300px;
+}
+
+.photo {
+width:100px;
+height:90px;
+position:relative;
+top:-30px;
+left:-40px;
+border-radius:2px;
+border:solid 1px skyblue;
+box-shadow:0.9px 0px 4px rgba(0,0,0,.4);
+-moz-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-webkit-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-o-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+float:left;
+}
+.name{
+width:150px;
+height:30px;
+border-radius:6px;
+box-shadow:0.9px 0px 4px rgba(0,0,0,.4);
+-moz-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-webkit-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-o-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+text-shadow:;
+font-size:;
+font-family:;
+font-variant:;
+font-case:;
+float:left;
+position:relative;
+left:-38px;
+margin:4px;
+padding-left:10px;
+padding-top:3px;
+cursor:pointer;
+}
+ .date{
+width:150px;
+height:15px;
+border-radius:6px;
+box-shadow:0.9px 0px 4px rgba(0,0,0,.4);
+-moz-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-webkit-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-o-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+text-shadow:;
+font-size:x-small;
+font-family:;
+font-variant:small-cpas;
+font-case:;
+padding-left:10px;
+padding-top:3px;
+float:right;
+position:relative;
+right:20p;
+margin:4px;
+}
+.comment{
+width:400px;
+height:50px;
+border-radius:10px;
+box-shadow:0.9px 0px 4px rgba(0,0,0,.4);
+-moz-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-webkit-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+-o-box-shadow:0.9px 0px 4px rgba(0,0,0,.1);
+text-shadow:;
+font-size:;
+font-family:;
+font-variant:;
+text-align:left;
+position:relative;
+padding:0px;
+left:70px;
+top:40px;
+margin:2px;
+background:rgba(0,0,0,.5);
+}

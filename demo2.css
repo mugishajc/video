@@ -1,0 +1,194 @@
+#blur{
+margin:0px;
+padding:0px;
+width:95%;
+height:100%;
+background:rgba(21,24,67,.7);
+border-radius:0.2em;
+position:relative;
+left:1.5em;
+}
+#blur a{
+text-decoration:none;
+}
+#blur .spand{
+position:absolute;
+top:1em;
+left:1em;
+width:1em;
+height:1em;
+padding-left:0.5em;
+padding-bottom:0.3em;
+background:#456;
+border-radius:0.3em;
+cursor:pointer;
+font-size:30px;
+color:darkred;
+}
+#blur .spand:active{
+background:#456790;
+}
+#lform{
+width:25em;
+height:20em;
+border:solid 0.4px black;
+position:relative;
+left:0px;
+top:10em;
+background:#fafafa;
+box-shadow:1px 0.9px 7px #444;
+border-radius:6px;
+-webkit-border-radius:6px;
+overflow:hidden;
+border:none;
+color:darkblue;
+margin-left:auto;
+margin-right:auto;
+}
+#lform h4{
+background:rgba(0,0,0,.4);
+width:100%;
+height:40px;
+position:relative;
+top:0%;
+border-radius:6px 6px 0px 0px;
+margin:0px;
+text-align:center;
+font-size:large;
+color:darkblue;
+padding-top:20px;
+text-shadow:1px 1px 2px #555;
+}
+#lform #formholder{
+width:85%;
+height:80%;
+position:absolute;
+left:9%;
+top:25%;
+overflow:visible;
+}
+#lform label{
+font-size:large;
+color:darkblue;
+text-shadow:1px 1px 2px #555;
+}
+.input{
+height:30px;
+width:100%;
+border:solid 1px #222;
+border-radius:6px;
+background:rgba(0,0,0,1);
+text-shadow:1px 1px 2px #555;
+color:white;
+font-weight:bold;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.submit{
+position:absolute;
+width:90px;
+height:30px;
+left:80px;
+top:130px;
+font-size:small;
+font-weight:bold;
+font-family:"Lucida Console", Monaco, monospace;
+color:darkblue;
+text-shadow:1px 1px 2px #555;
+bottom:100px;
+padding:-7px;
+border-radius:4px;
+box-shadow:0.6px 0.4px 1px skyblue;
+background:skyblue;
+border:solid 0.02px  #444;
+}
+.submit:active{
+top:125px;
+box-shadow:0.6px 0.4px 1px #999;
+border:solid 1px  #444;
+}
+footer{
+position:absolute;
+left:0px;
+bottom:0px;
+background:#606060;
+color:orange;
+width:100%;
+height:30px;
+text-align:center;
+font-weight:bold;
+padding-top:5px;
+text-shadow:1px 1px 2px #555;
+border-radius:0px 0px 6px 6px;
+-webkit-border-radius:0px 0px 6px 6px;
+}
+/*---------------------------------------------------------- end of Login from --------------------------------------------------------------------------*/
+#from_adv{
+position:relative;
+left:2px;
+top:-8px;
+border:none;
+width:40em;
+height:30.1em;
+background:#303030;
+box-shadow:1px 0.9px 7px #444;
+border-radius:6px;
+-webkit-border-radius:6px;
+overflow:hidden;
+}
+/*--------buttom---------*/
+#button{
+width:99%;
+height:2.3em;
+margin:2 auto;
+font-size:large;
+font-weight:bold;
+color:orange;
+position:absolute;
+text-shadow:1px 1px 2px #555;
+top:0px;
+left:2.8px;
+background:#606060;
+border-radius:6px;
+border:solid 1px #ccc;
+cursor:pointer;
+}
+#from_adv div{
+position:relative;
+left:1px;
+top:4em;
+border:none;
+width:39em;
+height:8em;
+border-radius:7px;
+margin:4px;
+text-shadow:1px 1px 2px #555;
+background:rgba(200,150,230,.2);
+cursor:normal;
+}
+#from_adv div img{
+margin:4px;
+width:7em;
+height:90%;
+float:left;
+border:none;
+border-radius:8px;
+}
+#from_adv div span{
+width:20em;
+height:35%;
+position:absolute;
+left:5em;
+top:0.6em;
+border:none ;
+padding-top:20px;
+padding-left:10px;
+font-size:large;
+font-variant:small-caps;
+color:orange;
+text-shadow:1px 1px 2px #555;
+}
+/*---------------------------------------------------------- end of Advertisement --------------------------------------------------------------------------*/
+#msg_out{
+background:red;
+border:solid;
+}
